@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <h1 class="title">Check The Weather</h1>
+    <div class="container">
+       
+        <div class="search-bar">
+            <input type="text" placeholder="Search for city" id="search">
+            <button id="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+        </div>
+        <div class="weather-box">
+            <h2 id="city"></h2>
+            <h3 id="temp"></h3>
+            <h4 id="extra-info"></h4>
+        </div>
+        <div class="temp-units">
+            <button id="celsius">Celsius</button>
+            <button id="fahrenheit">Fahrenheit</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
